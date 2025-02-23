@@ -15,7 +15,7 @@ class FTPClient
         Console.WriteLine("Digite a senha:");
         string password = ReadPassword();
 
-        Console.WriteLine("Escolha uma opção: \n1 - Listar arquivos\n2 - Upload\n3 - Download\n4 - Excluir arquivo");
+        Console.WriteLine("Escolha uma opção: /n1 - Listar arquivos/n2 - Upload/n3 - Download/n4 - Excluir arquivo");
         string choice = Console.ReadLine();
 
         switch (choice)
